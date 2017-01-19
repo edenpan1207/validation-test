@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>The jQuery validation sheet</title>
+</head>
+<body>
+  <div id="content">
+    <h1>Please type this information</h1>
+
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque repudiandae magni, aut, molestiae maiores recusandae itaque! Voluptate harum nulla tenetur exercitationem qui possimus ut, ducimus eius, magnam doloremque. Cupiditate, inventore..</p>
+
+    <p><strong>OR:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae vero aliquid nam doloremque cupiditate quod nemo consequatur, culpa dignissimos neque blanditiis tenetur ea minima pariatur eveniet id voluptas ad veritatis..</p>
+
+    <form action="index.html" class="form-test">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="Enter you name">
+    <span id="name-feedback"></span>
+    <br>
+    
+    <label for="password">Password: </label>
+    <input type="password" name="password" id="password" placeholder="Enetr you password">
+    <span id="pass-feedback"></span>
+    <br>
+
+<label for="input-range">Range: </label>
+    <input type="range" min="1" max="10" value="7" id="input-range">
+    <span class="range-show">7</span>
+    <br>
+
+<label for="textarea">Message: </label>
+    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="some message..."></textarea>
+    <span id="text-feedback"></span>
+    <br>
+
+<label for="cb">Are you sure?</label>
+    <input type="checkbox" name="cb" id="cb">
+    <span id="cb-feedback"></span>
+    <br>
+
+    <input type="submit" id="submit" value="送出">
+</form>
+  </div>
+</body>
+</html>
